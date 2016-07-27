@@ -1,0 +1,32 @@
+{
+  "name": "testgulp",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "danielVargas <daniel.vargas@usach.cl>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "angular": "~1.4.7",
+    "bootstrap": "3.0.0",
+    "angular-route": "~1.4.7"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
+  }
+}
